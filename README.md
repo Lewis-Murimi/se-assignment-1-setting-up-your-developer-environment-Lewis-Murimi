@@ -12,6 +12,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+   skipped
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
@@ -52,3 +53,84 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+SOLUTION
+
+Step 1: Download and Install Visual Studio Code
+Download VS Code:
+
+Visit the Visual Studio Code download page.
+Select the installer for Windows and download it.
+Install VS Code:
+
+Run the downloaded installer.
+Follow the installation prompts. It is recommended to select options to add VS Code to your PATH and to associate VS Code with supported file types.
+Step 2: Install a Text Editor or Integrated Development Environment (IDE)
+Launch VS Code:
+After installation, launch VS Code from the Start menu or by typing code in the command prompt (if added to PATH).
+Step 3: Set Up Version Control System
+Install Git:
+
+Download and install Git from the official Git website.
+During installation, you can choose default options. It's recommended to select "Use Git from the command line and also from 3rd-party software".
+Configure Git:
+
+Open Git Bash (installed with Git) or use the command prompt.
+Set your Git username and email:
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+Create a GitHub Account:
+
+Visit GitHub and sign up for an account.
+Initialize a Git Repository:
+
+Open VS Code and create a new project folder.
+Open the integrated terminal (`Ctrl+``) and navigate to your project folder.
+Initialize a new Git repository:
+
+git init
+Make your first commit:
+
+git add .
+git commit -m "Initial commit"
+Step 4: Install Necessary Programming Languages and Runtimes
+Install Python:
+
+Download Python from the official Python website.
+Run the installer and ensure you check the box to add Python to PATH.
+Verify Python Installation:
+
+Open a command prompt and type
+
+python --version
+pip --version
+Step 5: Install Package Managers
+Verify pip Installation:
+pip is installed with Python. Verify it by typing:
+
+pip --version
+Step 6: Configure a Database (MySQL)
+Download MySQL:
+
+Visit the MySQL download page and download the MySQL Installer.
+Install MySQL:
+
+Run the MySQL Installer.
+Follow the installation prompts to install MySQL Server and MySQL Workbench.
+Configure MySQL Server during the installation process, setting a root password and configuring other settings as required.
+Verify MySQL Installation:
+
+Open MySQL Workbench and connect to the local MySQL server using the root account.
+
+Step 7: Explore Extensions and Plugins
+Open Extensions View in VS Code:
+
+Click on the Extensions icon in the Activity Bar on the side of the window or press Ctrl+Shift+X.
+Install Essential Extensions:
+It is recommended to install only the verified extensions
+Python: Search for Python by Microsoft and click Install.
+
+Reload Window:
+
+Some extensions may require you to reload the VS Code window. Click on the reload button when prompted.
